@@ -13,8 +13,7 @@ class game{
     public void setNoofguesses(int noofguesses){
         this.noofguesses=noofguesses;
     }
-
-    //constructor defined below
+    
     game() {
         Random rand=new Random();
         this.number = rand.nextInt(100);
@@ -37,7 +36,7 @@ class game{
             System.out.println("your number is too low....\n");
         }
         else {
-            System.out.println("your number is too high\n");
+            System.out.println("your number is too high....\n");
         }
 
         return false;
