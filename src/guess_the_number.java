@@ -33,10 +33,10 @@ class game{
             return true;
         }
         else if (input_number < number) {
-            System.out.println("your number is too low....\n");
+            System.out.println("Your number is too low....\n");
         }
         else {
-            System.out.println("your number is too high....\n");
+            System.out.println("Your number is too high....\n");
         }
 
         return false;
